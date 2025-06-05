@@ -1,0 +1,48 @@
+body , html
+{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+
+h2
+{
+    padding: 20px;
+}
+
+.post_div 
+{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+
+}
+
+.post 
+{
+    background-color: rgb(250, 252, 254);
+}
+
+@media (max-width:1000px) 
+{
+    .post_div 
+    {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(5,1fr);
+    }
+}
+
+@media (max-width:800px) 
+{
+    .post_div 
+    {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5,1fr);
+    }
+}

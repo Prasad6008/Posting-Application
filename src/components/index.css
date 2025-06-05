@@ -1,0 +1,47 @@
+
+
+.container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 10% auto;
+}
+
+.container h1 
+{
+  color: rgb(0, 0, 0);
+
+}
+
+.form_div 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form_div input
+{
+  width: 70%;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.form_div button
+{
+  width: 70%;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: aquamarine;
+  color: rgb(161, 5, 5);
+  border: 1px solid rgb(161, 5, 5);
+}
+
